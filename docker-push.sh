@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # This tags and uploads an image to Docker Hub
-
-#Assumes this is built
-#docker build --tag=app .
-
+#!/bin/bash
+# run this scrept after 'docker build --tag=app .''
 
 dockerpath="superpowergalaxy/app"
 
